@@ -19,8 +19,7 @@ function App() {
 
   return (
     <div className="App">
-    {/* <h3>Counter : {counter}</h3>
-    <button onClick={hnadlecount}>ADD 1</button> */}
+ 
    <Routes>
      <Route path='/' element={<Private><Todo/></Private>}></Route>
      <Route path='/:id' element={<TodoDetails></TodoDetails>}></Route>
